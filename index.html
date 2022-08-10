@@ -1,0 +1,67 @@
+ <!-- Video Source -->
+  <!-- https://www.pexels.com/video/aerial-view-of-beautiful-resort-2169880/ -->
+<html>
+<body>
+<link rel="stylesheet" href="css/style.css">
+  <section class="showcase">
+    <header>
+      <h3 class="logo"><span>Welcome </span>to <span>my </span><span>personal </span><span>website :</span></h3>
+      <div class="toggle"></div>
+    </header>
+    <video src="assets/motion_background.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <img class="logo" src="assets/id.png" alt="Avatar">
+      <h2>BELKHITER</h2>
+      <h3>Yannis</h3>
+      <p>Currently a student at the Ecole des Mines d'Alès on a General Engineer course, 
+        I am passionate about new technologies and digital sciences. 
+        This is why I want to specialize in these lines. 
+        <br />
+        <br />
+        Serious, committed, organized and athletic, I am able to adapt to obstacles, such as they are. 
+        Former captain of the Grasse handball team, playing in the French under-18s championship, I have 
+        been able to show fighting spirit for more than 12 years of practicing this sport. I was also 
+        active among the young referees of the club.
+        <br />
+        <br />
+        During my free time, I also carry out some IT projects with electronic cards like the Raspberry PI. 
+        Finally, I am also passionate about astronomy, astrophotography, and a member of the Club des 
+        Astro-amateurs des Alpes Maritimes.</p>
+      <a href="#">Experience</a>
+      <a href="#">Education</a>
+      <a href="#">My skills</a>
+      <a href="#">About me</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      <li><a href="https://www.linkedin.com/in/yannis-belkhiter-42ba9121a/"><img src="assets/linkedin.png" weight=40 height=40></a></li>
+      <l2><a href="assets/CV BELKHITER Yannis.pdf" download="CV BELKHITER Yannis">Curiculum Vitae</a></l2>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">My Skills</a></li>
+      <li><a href="#">About me</a></li>
+    </ul>
+  </div>
+
+<script>
+ const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+
+</body>
+</html>
+
+  
